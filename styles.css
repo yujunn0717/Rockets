@@ -4,3 +4,31 @@
 @media (orientation:landscape) and (max-height:520px){:root{--navh:54px}.topbar{padding-top:4px;padding-bottom:4px}.position-layout{display:block}.portrait-table{display:none!important}.field{height:calc(100dvh - 120px);width:auto;max-width:100%;margin:auto}.board-card{background:transparent;border:0;box-shadow:none}.tab{padding-top:5px}}
 
 @media (max-width:430px){.topbar{gap:5px}.topbar input{font-size:14px}.topbar button,.icon{padding:7px 8px}.marker{min-width:40px;max-width:58px}.marker strong{font-size:7.5px;line-height:1}.marker small{font-size:6.5px;line-height:1}.portrait-head,.portrait-row{grid-template-columns:28px 38px minmax(0,1fr) minmax(62px,.78fr)}.drag-cell{padding:6px 3px}}
+
+.portrait-head.bench-only,.portrait-row.bench-only{grid-template-columns:56px minmax(0,1fr)}
+.rotate-gate{display:none}
+@media (orientation:landscape){
+  .rotate-gate{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;padding:24px;background:#f4f5f7}
+  .rotate-card{width:min(360px,90vw);padding:28px 22px;border:1px solid #dfe2e7;border-radius:22px;background:#fff;text-align:center;box-shadow:0 8px 30px #0002}
+  .rotate-icon{font-size:52px;line-height:1;margin-bottom:10px;color:#246bfd}
+  .rotate-card h2{font-size:20px;margin:0 0 8px}
+  .rotate-card p{margin:0;color:#6d737c;line-height:1.5}
+}
+
+/* v1.0.2.2: phone landscape = lineup table only; tablet landscape keeps field */
+.rotate-gate{display:none!important}
+@media (orientation:landscape) and (max-height:520px){
+  :root{--navh:54px}
+  .topbar{padding-top:4px;padding-bottom:4px}
+  #positionTab .position-layout{display:block}
+  #positionTab .board-card{display:none!important}
+  #positionTab .portrait-table{display:block!important;margin:0 auto;max-width:900px}
+  #positionTab .warnings{margin-top:8px}
+  .portrait-lineup{max-height:calc(100dvh - 128px - var(--navh));overflow:auto;-webkit-overflow-scrolling:touch}
+  .portrait-head,.portrait-row{grid-template-columns:34px 50px minmax(120px,1fr) minmax(100px,.75fr)}
+  .portrait-head.bench-only,.portrait-row.bench-only{grid-template-columns:56px minmax(140px,1fr)}
+  .tab{padding-top:6px}
+}
+@media (orientation:landscape) and (min-height:521px){
+  #positionTab .board-card{display:block}
+}
