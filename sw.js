@@ -1,4 +1,4 @@
-const CACHE = 'rockets-lineup-manager-v1029';
+const CACHE = 'rockets-lineup-manager-v10210';
 const ASSETS = [
   './',
   'index.html',
