@@ -4,10 +4,3 @@
 @media (orientation:landscape) and (max-height:520px){:root{--navh:54px}.topbar{padding-top:4px;padding-bottom:4px}.position-layout{display:block}.portrait-table{display:none!important}.field{height:calc(100dvh - 120px);width:auto;max-width:100%;margin:auto}.board-card{background:transparent;border:0;box-shadow:none}.tab{padding-top:5px}}
 
 @media (max-width:430px){.topbar{gap:5px}.topbar input{font-size:14px}.topbar button,.icon{padding:7px 8px}.marker{min-width:40px;max-width:58px}.marker strong{font-size:7.5px;line-height:1}.marker small{font-size:6.5px;line-height:1;margin-top:-2px}.portrait-head,.portrait-row{grid-template-columns:28px 38px minmax(0,1fr) minmax(62px,.78fr)}.drag-cell{padding:6px 3px}}
-
-/* v1.0.4 iOS marker line compaction */
-.marker{line-height:1!important;}
-.marker strong,.marker small{display:block!important;margin:0!important;padding:0!important;line-height:.85!important;}
-.marker small{position:relative!important;top:-4px!important;margin-bottom:-4px!important;}
-.app-version{margin:18px 0 2px;color:var(--sub);font-size:12px;text-align:center;}
-@media (max-width:699px){.marker small{top:-5px!important;margin-bottom:-5px!important;}.marker{padding-top:3px!important;padding-bottom:1px!important;}}
