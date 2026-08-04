@@ -1,2 +1,9 @@
-# Rockets
-Rocket Lineup management
+# 라인업 메이커 PWA v1
+
+## 실행
+HTTPS 정적 호스팅에 폴더 전체를 업로드하세요. 로컬 확인은 이 폴더에서 `python3 -m http.server 8000` 실행 후 브라우저에서 `http://localhost:8000`을 여세요.
+
+iPhone/iPad Safari: 공유 버튼 → 홈 화면에 추가.
+
+## 포함 기능
+오프라인 캐시, 자동 저장, 선수 관리, 경기 저장/복사/삭제, 선발/벤치, 지명타자, 포지션·타순 드래그, 세로 화면 하단 선발·벤치표, 실시간 동기화, 한국어/영어/일본어, PNG 생성 및 공유, JSON 백업/복원.
