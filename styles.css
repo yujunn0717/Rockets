@@ -32,3 +32,11 @@
 @media (orientation:landscape) and (min-height:521px){
   #positionTab .board-card{display:block}
 }
+
+/* v1.0.2.3 image save chooser */
+.save-modal{position:fixed;inset:0;z-index:300;display:grid;place-items:center;padding:20px;background:rgba(16,22,31,.42);backdrop-filter:blur(6px)}
+.save-modal-card{width:min(360px,100%);padding:22px;border-radius:20px;background:#fff;box-shadow:0 18px 50px #0004;text-align:center}
+.save-modal-card h2{margin:0 0 6px}.save-modal-card p{margin:0 0 14px;color:var(--sub)}
+.save-modal-card button{display:block;width:100%;margin:8px 0;padding:13px 12px;border:1px solid var(--line);border-radius:12px;background:#fff;font-size:16px;font-weight:700}
+.save-modal-card button[data-image-type]{background:var(--blue);border-color:var(--blue);color:#fff}
+.save-modal-card .secondary{color:var(--sub)}
