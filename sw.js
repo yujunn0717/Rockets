@@ -1,4 +1,4 @@
-const CACHE = 'lineup-maker-pwa-v1.0.3';
+const CACHE = 'lineup-maker-pwa-v1.0.2';
 const ASSETS = [
   './',
   'index.html',
