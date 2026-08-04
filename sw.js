@@ -1,11 +1,11 @@
-const CACHE = 'lineup-maker-v1.0.2.3';
+const CACHE = 'lineup-maker-v1.0.2.6';
 const ASSETS = [
   './',
   'index.html',
   'styles.css',
   'app.js',
   'manifest.webmanifest',
-  'baseball-field.png',
+  'baseball-field.png','rockets-watermark.png',
   'icon-192.png',
   'icon-512.png'
 ];
