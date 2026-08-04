@@ -1,4 +1,4 @@
-const CACHE = 'lineup-maker-v1.0.2.7';
+const CACHE = 'lineup-maker-v1.0.2.8';
 const ASSETS = [
   './',
   'index.html',
