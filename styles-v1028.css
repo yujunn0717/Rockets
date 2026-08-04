@@ -45,15 +45,6 @@
 .watermark-card{position:relative;overflow:hidden;isolation:isolate}
 .watermark-card::before{content:"";position:absolute;inset:0;background:url("rockets-watermark.png") center/52% auto no-repeat;opacity:.075;pointer-events:none;z-index:0}
 .watermark-card>*{position:relative;z-index:1}
+#positionTab .portrait-table.watermark-card::before{background-size:min(58%,430px) auto;opacity:.075}
 #lineupTab .watermark-card::before{background-size:min(62%,430px) auto;opacity:.075}
 @media(max-width:699px){.watermark-card::before{background-size:62% auto;opacity:.07}}
-
-/* v1.0.2.8 independent portrait starter/bench watermarks */
-#positionTab .portrait-table{display:none;background:transparent;border:0;box-shadow:none;padding:0;overflow:visible}
-#positionTab .portrait-section{position:relative;overflow:hidden;isolation:isolate;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 1px 3px #0000000b;padding:14px;margin:0 0 12px}
-#positionTab .portrait-section::before{content:"";position:absolute;inset:0;background-image:url("rockets-watermark.png");background-repeat:no-repeat;background-position:center;opacity:.07;pointer-events:none;z-index:0}
-#positionTab .portrait-section.starter-watermark::before{background-size:min(58%,430px) auto}
-#positionTab .portrait-section.bench-watermark::before{background-size:min(48%,320px) auto}
-#positionTab .portrait-section>*{position:relative;z-index:1}
-@media (orientation:portrait) and (min-width:700px){#positionTab .portrait-table{display:block}}
-@media (max-width:699px){#positionTab .portrait-table{display:block;padding:0}#positionTab .portrait-section{border-radius:14px;padding:10px}#positionTab .portrait-section.starter-watermark::before{background-size:62% auto}#positionTab .portrait-section.bench-watermark::before{background-size:54% auto}}
