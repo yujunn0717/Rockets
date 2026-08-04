@@ -1,13 +1,13 @@
-const CACHE = 'lineup-maker-pwa-v1';
+const CACHE = 'lineup-maker-pwa-v1.0.1';
 const ASSETS = [
   './',
   'index.html',
   'styles.css',
   'app.js',
   'manifest.webmanifest',
-  'assets/baseball-field.png',
-  'assets/icon-192.png',
-  'assets/icon-512.png'
+  'baseball-field.png',
+  'icon-192.png',
+  'icon-512.png'
 ];
 
 self.addEventListener('install', event => {
@@ -23,7 +23,9 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request).then(response => response || fetch(event.request))
-  );
+  if (event.request.mode === 'navigate') {
+    event.respondWith(fetch(event.request).catch(() => caches.match('./')));
+    return;
+  }
+  event.respondWith(caches.match(event.request).then(response => response || fetch(event.request)));
 });
