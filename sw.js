@@ -1,9 +1,9 @@
-const CACHE='rockets-lineup-v10215';
+const CACHE='rockets-lineup-v10214';
 const ASSETS = [
   './',
   'index.html',
-  'styles-v10215.css',
-  'app-v10215.js',
+  'styles-v10214.css',
+  'app-v10214.js',
   'manifest.webmanifest',
   'baseball-field.png',
   'rockets-watermark.png',
