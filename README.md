@@ -86,3 +86,8 @@ GitHub 저장소 루트에 모든 파일을 그대로 업로드하는 배포 구
 - iPhone/iPad용 Apple Touch Icon 추가
 - Android PWA용 192px/512px 아이콘 및 maskable 아이콘 적용
 - 브라우저 파비콘 추가
+
+
+## v1.0.2.14
+- iOS Safari에서 포지션 칸 짧은 탭이 반응하지 않던 문제 수정
+- 짧게 탭하면 포지션 선택창, 0.42초 롱프레스 후 이동하면 드래그 교환
