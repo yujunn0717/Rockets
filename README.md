@@ -123,3 +123,10 @@ GitHub 저장소 루트에 모든 파일을 그대로 업로드하는 배포 구
 ## v1.0.3
 - 앱 재실행 또는 새로고침 시 선수 관리 목록을 등번호 오름차순으로 정렬합니다.
 - 설정 화면 하단에 앱 버전 1.0.3을 작은 회색 글씨로 표시합니다.
+
+
+## v1.0.3 warning placement hotfix
+- Based on v1.0.3; discarded lower-left logo overlay is not included.
+- Position-tab validation warnings now render immediately above the field image.
+- When there are no warnings, the warning element is hidden and consumes no layout space.
+- Warning lines remain separated and use #9e40fc.
