@@ -130,3 +130,10 @@ GitHub 저장소 루트에 모든 파일을 그대로 업로드하는 배포 구
 - Position-tab validation warnings now render immediately above the field image.
 - When there are no warnings, the warning element is hidden and consumes no layout space.
 - Warning lines remain separated and use #9e40fc.
+
+## v1.0.4
+- 라인업 탭 선발 영역에 드래그 편집 추가
+- 이름 칸 옆 핸들을 길게 눌러 타순 변경
+- 포지션 칸 옆 핸들을 길게 눌러 포지션 교환
+- 변경 내용은 포지션 탭 필드/하단표와 즉시 동기화
+- v1.0.3 경고 위치 수정 동작 유지
