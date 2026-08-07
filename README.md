@@ -1,3 +1,10 @@
+# Rockets Lineup Manager v1.0.3.1
+
+## 변경 사항
+- 포지션 탭 야구장 이미지 좌하단 여백에 원본 Rockets 로고 배치
+- 로고는 클릭/드래그에 영향을 주지 않는 비활성 오버레이
+- 모바일/태블릿 화면 크기에 따라 로고 크기 자동 조절
+
 # Rockets Lineup Manager v1.0.2.8
 
 
