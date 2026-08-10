@@ -1,9 +1,9 @@
-const CACHE='rockets-lineup-manager-v1.0.4';
+const CACHE='rockets-lineup-manager-v1.1';
 const ASSETS = [
   './',
   'index.html',
-  'styles-v104.css',
-  'app-v104.js',
+  'styles-v11.css',
+  'app-v11.js',
   'manifest.webmanifest',
   'baseball-field.png',
   'rockets-watermark.png',
