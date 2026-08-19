@@ -1,9 +1,9 @@
-const CACHE_NAME='rockets-lineup-manager-v1.2.2';
+const CACHE_NAME='rockets-lineup-manager-v1.2.3';
 const APP_SHELL=[
   './',
   './index.html',
-  './styles-v122.css',
-  './app-v122.js',
+  './styles-v123.css',
+  './app-v123.js',
   './baseball-field.png',
   './rockets-watermark.png',
   './icon-192.png',
